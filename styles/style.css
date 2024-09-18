@@ -1,0 +1,262 @@
+/**************/
+/* CSS REMEDY */
+/**************/
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+/*********************/
+/* CUSTOM PROPERTIES */
+/*********************/
+
+@font-face {
+  font-family: "Helvetica1"; /* Geef het font een naam */
+  src: url("/fonts/HelveticaNeueLTStd-Roman.woff2") format("woff2"); /* Moderne browsers */
+  font-weight: normal; /* Je kunt ook verschillende gewichten en stijlen instellen */
+  font-style: normal;
+}
+
+:root {
+  /* startje */
+  --color-text: #111;
+  --color-background: #eee;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+ol {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+body {
+  font-family: "Helvetica1", sans-serif;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+/****************/
+/* JOUW STYLING */
+/****************/
+
+/* jouw code */
+
+p {
+  font-family: "Helvetica1", sans-serif;
+  font-size: 0.9em;
+}
+
+.mainstyle {
+  background-color: #d9d9d9;
+  padding: 1em;
+}
+
+.introstuk {
+  position: fixed;
+  /* margin-top is niet beste optie xx Thomas */
+  margin-top: -30em;
+  margin-left: 1em;
+  z-index: -1;
+}
+
+.homeachtergrondvideo {
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80vh;
+  z-index: -1;
+}
+
+header ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 81px;
+  pointer-events: auto;
+  list-style-type: none;
+  padding: 1em;
+}
+
+header ul li svg:nth-last-of-type(1) {
+  width: 40px;
+  height: 40px;
+}
+
+header ul li svg:nth-last-of-type(2) {
+  width: 18px;
+  height: 18px;
+}
+
+header ul li svg:nth-of-type(3) {
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  background-color: transparent;
+}
+
+header ul li:nth-of-type(5) {
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: #fff;
+  display: inline-block;
+}
+
+.hamburger {
+  display: block;
+  width: 1em;
+  border-bottom: 1px solid black;
+  margin: 1em 0;
+}
+
+form input {
+  border: none;
+  background-image: none;
+  background-color: transparent;
+  box-shadow: none;
+  outline: none;
+  cursor: pointer;
+} /* copy paste van eigen website de opmaak van de searchbalk */
+
+h1 {
+  color: white;
+  font-family: "Helvetica1";
+  font-size: 3rem;
+  margin-bottom: 4rem;
+}
+
+main svg {
+  height: 1.4rem;
+  width: 1.5rem;
+  margin-right: 1rem;
+  margin-bottom: 0.6rem;
+  transition: transform 0.15s ease-in-out;
+}
+
+main span {
+  color: #fff;
+  font-family: "Helvetica1";
+}
+
+main section:nth-of-type(1) {
+  background-color: #d9d9d9;
+  font-family: "Helvetica1";
+}
+
+.tekstje {
+  padding-bottom: 1em;
+}
+
+.streep {
+  display: block; /* Zorgt ervoor dat het span-element zich als een block-element gedraagt */
+  width: 100%;
+  border-bottom: 1px solid black;
+  margin: 20px 0;
+  padding-top: 2em;
+}
+
+section {
+  background-color: #d9d9d9;
+  font-family: "Helvetica1";
+}
+
+section a {
+  background-color: #ffff07;
+  border-radius: 3em;
+  color: #000;
+  padding: 1em 2.5em 1em;
+}
+
+h2 {
+  color: black;
+  font-family: "Helvetica1";
+  font-size: 2.5em;
+}
+
+h3 {
+  color: black;
+  font-family: "Helvetica1";
+  font-size: 1.5em;
+  margin-top: 2em;
+}
+
+ol {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
+}
+
+/*chatgpt hiervoor om hulpt gevraagd*/
+.sidescroll-container {
+  width: 100%; /* Past de breedte van de container aan de viewport aan */
+  overflow-x: auto; /* Zorgt voor horizontaal scrollen */
+  white-space: nowrap; /* Voorkomt dat items op nieuwe regels worden geplaatst */
+}
+
+/* De inhoud die groter is dan de container (waardoor scrollen nodig is) */
+.sidescroll-content {
+  display: inline-flex; /* Maakt de elementen inline en flexbox */
+}
+
+.afbeeldingen-sidescroll {
+  width: 300px;
+  height: 200px;
+  padding: 5px;
+}
+
+.tekst-sidescroll {
+  max-width: 295px;
+  text-wrap: wrap;
+  padding: 5px;
+}
+
+footer {
+  background-color: #1c1c1c;
+  box-sizing: border-box;
+  color: #fff;
+  position: relative;
+  padding: 1em;
+}
+
+footer h3 {
+  color: #fff;
+}
+
+footer div {
+  display: flex;
+}
+
+footer ul:nth-of-type(1) {
+  display: flex;
+  gap: 1em;
+}
+
+footer ul:nth-of-type(1) li {
+  border: grey 1px solid;
+  padding: 1em;
+  border-radius: 100%;
+  position: relative;
+}
+
+footer ul a {
+  color: #fff;
+}
+
+/*
+footer ul:nth-of-type(2) {
+
+}*/
