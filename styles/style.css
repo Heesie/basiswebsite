@@ -13,7 +13,7 @@
 
 @font-face {
   font-family: "Helvetica1"; /* Geef het font een naam */
-  src: url("../fonts/HelveticaNeueLTStd-Lt.otf"); /* Moderne browsers */
+  src: url(../fonts/HelveticaNeueLTStd-Lt.otf); /* Moderne browsers */
   font-weight: normal; /* Je kunt ook verschillende gewichten en stijlen instellen */
   font-style: normal;
 }
