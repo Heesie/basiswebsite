@@ -169,6 +169,19 @@ main section:nth-of-type(1) {
   padding-top: 2em;
 }
 
+.imgcontainer {
+  position: relative;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.tekstoverlay {
+  position: absolute;
+  top: 5em;
+  left: 20px;
+  color: white;
+}
+
 
 section {
   background-color: #d9d9d9;
@@ -188,9 +201,7 @@ h2 {
   font-size: 2.5em;
 }
 
-h3 {
-  color: black;
-  font-family: "Helvetica1";
+h3 {  font-family: "Helvetica1";
   font-size: 1.5em;
   margin-top: 2em;
 }
