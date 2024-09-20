@@ -167,6 +167,7 @@ main section:nth-of-type(1) {
   padding-top: 2em;
 }
 
+
 section {
   background-color: #d9d9d9;
   font-family: "Helvetica1";
@@ -192,7 +193,7 @@ h3 {
   margin-top: 2em;
 }
 
-ol {
+.gridafbeeldingen {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
@@ -236,8 +237,11 @@ footer h3 {
   color: #fff;
 }
 
+
 footer div {
   display: flex;
+  gap: 1em;
+  font-size: 22px;
 }
 
 footer ul:nth-of-type(1) {
@@ -250,6 +254,10 @@ footer ul:nth-of-type(1) li {
   padding: 1em;
   border-radius: 100%;
   position: relative;
+}
+
+footer ul:nth-of-type(2) {
+ color: #ffffff;
 }
 
 footer ul a {
