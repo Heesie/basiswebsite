@@ -177,11 +177,19 @@ main section:nth-of-type(1) {
 
 .tekstoverlay {
   position: absolute;
-  top: 5em;
+  top: 5.5em;
   left: 20px;
   color: white;
 }
 
+.tekstoverlay2 {
+  display: flex;
+  position: absolute;
+  top: 12em;
+  left: 10px;
+  color: white;
+  
+}
 
 section {
   background-color: #d9d9d9;
@@ -275,6 +283,12 @@ footer ul:nth-of-type(2) {
 
 footer ul a {
   color: #fff;
+}
+
+iframe {
+  height: 450px;
+  width: 100%;
+  border: none;
 }
 
 /*
