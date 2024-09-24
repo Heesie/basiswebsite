@@ -114,10 +114,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - Ik ben goed opweg, loop nu op schema
+  - Mijn errors uit mijn website halen doormiddel van w3c validator
+  - Proberen mijn bronnen goed bij te houden
+
 
 </details>
 
@@ -133,6 +133,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
+  Begin een klein beetje vast te lopen met kleine dingetjes, zoals mijn h1 op dezelfde achtergrond als video. of sidescroll toevoegen en opmaak van de navigatie hetzelfde krijgen. 
+
 
   ### Agenda voor meeting
   samen met je groepje opstellen
@@ -147,10 +149,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-- ...
+  - Manier waarop ik mijn h1 heb gedaan en achtergrond video, mag op die manier zolang het werkt. als het niet meer werkt op een andere manier opmaken.
+  - Styling van Navigatie moet nog aangepast worden, was nog niet voldoende
+
 
 </details>
 
