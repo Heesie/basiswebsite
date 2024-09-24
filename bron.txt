@@ -1,1 +1,3 @@
 Ik heb chatgpt om error uit mijn svg's en iframe te halen: https://chatgpt.com/c/66ed87ac-4694-8007-b841-7f1871fb1a02
+
+Voor de interactie met mijn navigatie heb ik Chatgpt om hulp gevraagd: https://chatgpt.com/c/66f296f4-af9c-8007-a420-f524648eda98

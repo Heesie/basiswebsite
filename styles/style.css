@@ -80,6 +80,17 @@ p {
   position: sticky;
 }
 
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: transparent;
+  color: white;
+  z-index: 1;
+  transition: top 0.3s;
+}
+
 header ul {
   display: flex;
   align-items: center;
@@ -125,10 +136,7 @@ header ul li:nth-of-type(5) {
 
 form input {
   border: none;
-  background-image: none;
   background-color: transparent;
-  box-shadow: none;
-  outline: none;
   cursor: pointer;
 } /* copy paste van eigen website de opmaak van de searchbalk */
 
