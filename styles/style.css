@@ -80,6 +80,8 @@ p {
   font-size: 0.9em;
 }
 
+
+
 .mainstyle {
   background-color: var(--background-color);
   padding: 1em;
@@ -120,6 +122,7 @@ header ul {
   justify-content: space-evenly;
   list-style-type: none;
   padding: 1em;
+  top: 0;
 }
 
 header ul li svg {
@@ -135,10 +138,42 @@ header input {
 .hamburger {
   display: block;
   width: 1em;
-  border-bottom: 1px solid black;
-  margin: 1em 0;
-  
-  
+  margin: 0.5em;
+  position: relative;
+  transition: 0.3s ease; 
+  size: 1em;
+}
+
+.hamburger::before,
+.hamburger::after {
+  content: '';
+  position: absolute;
+  width: 2em;
+  height: 2px;
+  background-color: black;
+  transition: 0.3s ease;
+}
+
+.hamburger::before {
+  top: -0.6em;
+}
+
+.hamburger::after {
+  top: 0.6em;
+}
+
+.hamburger.active {
+  background-color: transparent;
+}
+
+.hamburger.active::before {
+  transform: rotate(45deg);
+  top: 0;
+}
+
+.hamburger.active::after {
+  transform: rotate(-45deg);
+  top: 0;
 }
 
 .hamburgermenu {
@@ -156,11 +191,22 @@ header input {
   right: -450px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+  padding-top: 5em;
+  padding-left: 1em;
   transition: .3s ease;
   z-index: 1000;
+  height: 100%;
+  overflow-y: auto;
+}
+
+.offscreenmenu ul li h2{
+  margin-bottom: 0.5em;
+  margin-top: 0.5em;
+}
+
+.offscreenmenu ul li h3{
+  margin-bottom: 0.5em;
+  margin-top: 0.5em;
 }
 
 .offscreenmenu.active {

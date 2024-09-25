@@ -16,13 +16,15 @@ const video = document.querySelector(".homeachtergrondvideo");
 
 //hamburgermenu
 const hamMenu = document.querySelector('.hamburgermenu');
-
 const offScreenMenu = document.querySelector('.offscreenmenu');
+const hamburger = document.querySelector('.hamburger');
 
 hamMenu.addEventListener('click', () => { 
   hamMenu.classList.toggle('active'); 
-offScreenMenu.classList.toggle('active');
-})
+  offScreenMenu.classList.toggle('active');
+  hamburger.classList.toggle('active');  // Toegevoegd om het kruisje te laten zien
+});
+
 
 window.addEventListener("scroll", function () {
   let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
