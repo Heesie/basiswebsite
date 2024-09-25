@@ -18,7 +18,6 @@
   font-style: normal;
 }
 
-
 :root {
   --background-color: #d9d9d9;
   --text-color: #000000;
@@ -35,9 +34,9 @@ body:has(input[value="dark"]:checked) {
 
 body:has(input[value="summer"]:checked) {
   --background-color: #fffae5; /* Light sunny yellow */
-  --text-color: #005f73;       /* Dark teal */
-  --primary-color: #ffbf69;    /* Bright orange */
-  --secondary-color: #ee9b00;  /* Warm earthy tone */
+  --text-color: #005f73; /* Dark teal */
+  --primary-color: #ffbf69; /* Bright orange */
+  --secondary-color: #ee9b00; /* Warm earthy tone */
 }
 
 body {
@@ -58,8 +57,6 @@ a {
   color: #005f73;
 }
 
-
-
 ul {
   padding: 0;
   margin: 0;
@@ -71,7 +68,6 @@ ol {
   margin: 0;
   list-style: none;
 }
-
 
 /****************/
 /* JOUW STYLING */
@@ -97,9 +93,6 @@ p {
   z-index: -1;
 }
 
-
-
-
 .homeachtergrondvideo {
   object-fit: cover;
   top: 0;
@@ -110,8 +103,6 @@ p {
   position: sticky;
 }
 
-
-
 header {
   position: fixed;
   top: 0;
@@ -119,7 +110,7 @@ header {
   width: 100%;
   background-color: transparent;
   color: white;
-  z-index: 1;
+  z-index: 1001;
   transition: top 0.3s;
 }
 
@@ -131,17 +122,14 @@ header ul {
   padding: 1em;
 }
 
-header ul li svg:nth-last-of-type(1) {
-  width: 40px;
-  height: 40px;
+header ul li svg {
+  width: 34px;
+  height: 34px;
 }
 
 
-header ul li:nth-of-type(5) {
-  font-size: 1.2rem;
-  text-decoration: none;
-  color: #fff;
-  display: inline-block;
+header input {
+  width: 5em;
 }
 
 .hamburger {
@@ -149,14 +137,41 @@ header ul li:nth-of-type(5) {
   width: 1em;
   border-bottom: 1px solid black;
   margin: 1em 0;
+  
+  
 }
 
-form input {
+.hamburgermenu {
+  margin-left: auto;
+  position: relative;
+}
+
+.offscreenmenu {
+  background-color: var(--primary-color);
+  height: 100vh;
+  width: 100%;
+  max-width: 450px;
+  position: fixed;
+  top: 0;
+  right: -450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  transition: .3s ease;
+  z-index: 1000;
+}
+
+.offscreenmenu.active {
+  right: 0;
+}
+
+header form input {
   border: none;
   background-color: transparent;
   cursor: pointer;
-} /* copy paste van eigen website de opmaak van de searchbalk */
-
+}
 
 
 h1 {
@@ -192,7 +207,7 @@ main section:nth-of-type(1) {
   display: block; /* Zorgt ervoor dat het span-element zich als een block-element gedraagt */
   width: 100%;
   border-bottom: 1px solid;
-  color: var(--secondary-color);  
+  color: var(--secondary-color);
   margin: 20px 0;
   padding-top: 2em;
 }
@@ -216,7 +231,6 @@ main section:nth-of-type(1) {
   top: 12em;
   left: 10px;
   color: white;
-  
 }
 
 section {
@@ -233,11 +247,11 @@ section a {
 
 h2 {
   color: var(--text-color);
- font-family: "Helvetica1";
+  font-family: "Helvetica1";
   font-size: 2.5em;
 }
 
-h3 {  
+h3 {
   color: var(--text-color);
   font-family: "Helvetica1";
   font-size: 1.5em;
@@ -288,7 +302,6 @@ footer h3 {
   color: #fff;
 }
 
-
 footer div {
   display: flex;
   gap: 1em;
@@ -308,7 +321,7 @@ footer ul:nth-of-type(1) li {
 }
 
 footer ul:nth-of-type(2) {
- color: #ffffff;
+  color: #ffffff;
 }
 
 footer ul a {
@@ -321,21 +334,15 @@ iframe {
   border: none;
 }
 
-h4 { 
+h4 {
   color: #ffffff;
   font-size: x-large;
 }
 
-
 @media (prefers-reduced-motion: reduce) {
   /* Alle animaties die je wilt uitschakelen of aanpassen */
   .homeachtergrondvideo {
-      animation: none;
-      transition: none;
+    animation: none;
+    transition: none;
   }
-  
 }
-/*
-footer ul:nth-of-type(2) {
-
-}*/
