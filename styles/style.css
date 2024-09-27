@@ -74,6 +74,19 @@ p {
   font-size: 0.9em;
 }
 
+/* thomas heeft hierbij geholpen */
+.visually_hidden
+{
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+ 
+
 
 
 .mainstyle {
@@ -135,7 +148,6 @@ header input {
   margin: 0.5em;
   position: relative;
   transition: 0.3s ease; 
-  size: 1em;
 }
 
 .hamburger::before,
