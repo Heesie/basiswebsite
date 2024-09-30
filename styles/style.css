@@ -233,6 +233,27 @@ h1 {
   margin-bottom: 4rem;
 }
 
+.h1 {
+  color: var(--text-color);
+padding-top: 2em;
+z-index: 2;
+position: relative;
+}
+
+.celebachtergrond {
+  position: absolute;
+  bottom: 2.6em;
+  font-size: 10em;
+  width: 100%;
+  right: 0.3em;
+  z-index: 1;
+
+}
+
+.celebdeel {
+  overflow: hidden;
+}
+
 main svg {
   height: 1.4rem;
   width: 1.5rem;
@@ -281,6 +302,22 @@ main section:nth-of-type(1) {
   display: flex;
   position: absolute;
   top: 12em;
+  left: 10px;
+  color: white;
+}
+
+.tekstoverlay3 {
+  position: absolute;
+  top: 2em;
+  left: 10px;
+  color: white;
+}
+
+
+.tekstoverlay4 {
+  display: flex;
+  position: absolute;
+  top: 9.5em;
   left: 10px;
   color: white;
 }
