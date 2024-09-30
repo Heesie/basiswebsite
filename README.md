@@ -40,12 +40,15 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   ADE Homescherm
-  <img src="readme-images/ADEhomepagina.png" width="375px" alt="De homepagina van Amsterdam Dance events website">
+  https://www.amsterdam-dance-event.nl/en/
+  <img src="readme-images/ADEhomepagina.png" width="375px" alt="De homepagina van Amsterdam Dance events website als desktopformaat">
+
 
   #### Screenshot(s) van de tweede pagina (small screen):
   ADE - Celebrate Safe Pagina
   https://www.amsterdam-dance-event.nl/en/partners/celebrate-safe/33503/
-  <img src="readme-images/marlonpagina.png" width="375px" alt="De pagina van een evenement waarbij de DJ Marlon Hoffstadt is en je hier informatie over kan vinden">
+    <img src="readme-images/celebrate-safe-pagina.png" width="375px" alt="De celebrate safe pagina van Amsterdam Dance events website als desktopformaat">
+
  
 </details>
 
@@ -77,7 +80,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/home-pagina-breakdown.png" width="375px" alt="breakdown van de hele pagina">
 
   ### dynamisch deel (bijv menu): 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
