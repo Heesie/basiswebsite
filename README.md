@@ -43,7 +43,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <img src="readme-images/ADEhomepagina.png" width="375px" alt="De homepagina van Amsterdam Dance events website">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  ADE Awekenings - Marlon Hoffstadt
+  ADE - Celebrate Safe Pagina
+  https://www.amsterdam-dance-event.nl/en/partners/celebrate-safe/33503/
   <img src="readme-images/marlonpagina.png" width="375px" alt="De pagina van een evenement waarbij de DJ Marlon Hoffstadt is en je hier informatie over kan vinden">
  
 </details>

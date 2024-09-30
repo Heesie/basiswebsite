@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    <meta charset="UTF-8" >
+    <meta name="author" content="Lucas" >
+    <meta name="viewport" content="width=device-width, initial-scale=1" >
+
+    <title>ADE</title>
+
+    <link href="./styles/style.css" rel="stylesheet" >
+    <link
+      rel="icon"
+      type="image/jpg"
+      href="/images/adelogo.jpg"
+      sizes="16x16"
+    >
+  </head>
+
+  <body>
+    <header id="navbar">
+      <nav>
+        <ul>
+          <li>
+            <svg
+              version="1.1"
+              id="Layer_1"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              x="0px"
+              y="0px"
+              viewBox="0 0 74.9 74.9"
+              style="enable-background: new 0 0 74.9 74.9"
+              xml:space="preserve"
+            >
+              <style type="text/css">
+                .st0--black {
+                  fill: #ffffff;
+                }
+              </style>
+              <polygon
+                points="74.9,47.4 57.2,74.9 0,74.9 0,0 74.9,0 "
+              ></polygon>
+              <g>
+                <path
+                  class="st0--black"
+                  d="M54.5,32.8c0-1.9-2.1-2.4-4-2.4c-2,0-4.1,0.8-4.3,3.1v3.1c0.7-0.2,1.4-0.4,2.2-0.6
+						C51.2,35.3,54.5,35,54.5,32.8 M37.2,47.2c-5.8,0-8.9-4.2-9-9.5c-0.7,0.2-1.4,0.4-2.1,0.6C23,39,20,39.4,20,41.7s2.6,2.8,4.5,2.8
+						c1.6,0,3.2-0.4,4.1-1.3c0.3,0.7,0.8,1.3,1.2,1.8c0.2,0.2,0.4,0.4,0.6,0.6c-1.4,1.1-3.5,1.6-5.7,1.6c-3.8,0-7.9-1.4-7.9-5.9
+						c0-3.6,3-4.6,6.1-5.3c2.9-0.7,6.1-1,6.1-3.3c0-1.9-2.1-2.4-4-2.4c-2,0-4.1,0.8-4.3,3.1h-3.1c0.3-4.5,3.5-5.8,7.6-5.8
+						c2.2,0,4.5,0.7,5.8,2.2c1.5-1.4,3.5-2.2,6.1-2.2c1.9,0,3.5,0.5,4.8,1.2v4.4c-1-1.9-2.8-2.9-4.8-2.9c-3.2,0-5.8,2.5-5.8,7.1
+						c0,4.5,2.6,7,5.8,7c3.2,0,5.8-2.5,5.8-7V21.2h3.2v7.3c1.3-0.6,2.8-0.8,4.6-0.8c3.2,0,6.9,1.5,6.9,5.3c0,3.6-3.1,4.6-6.1,5.3
+						c-2.8,0.6-5.5,1-5.9,2.9l0,0C44.5,44.7,41.7,47.2,37.2,47.2 M50.2,47.2c-2.2,0-4.5-0.5-6-1.7c0.2-0.2,0.3-0.3,0.4-0.4
+						c0.5-0.6,0.9-1.3,1.3-2c0.8,1.2,2.7,1.4,4.1,1.4c2.5,0,4.9-0.9,5-3.6h3.1C57.9,45.5,54.4,47.2,50.2,47.2"
+                ></path>
+              </g>
+            </svg>
+          </li>
+          <li>
+            <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+          >
+            <path
+              d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"
+            />
+          </svg>
+          
+          </li>
+          <li>
+            <form action="/search" method="get">
+              <input type="search" name="query" placeholder="Search" >
+            </form>
+          </li>
+          <li>
+            <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+          >
+            <path
+              d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"
+            />
+          </svg>
+          
+          </li>
+          <li>
+            <a href="#">Login</a>
+          </li>
+          <li>
+            <div class="hamburgermenu">
+              <span class="hamburger"></span>
+            </div>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <div class="offscreenmenu">
+      <form>
+        <label>
+          <input type="radio" name="theme" value="light" checked > Light Mode
+        </label>
+        <label>
+          <input type="radio" name="theme" value="dark" > Dark Mode
+        </label>
+        <label>
+          <input type="radio" name="theme" value="summer" > Summer Mode
+        </label>
+      </form>
+      <ul>
+        <li>
+          <h2>Tickets</h2>
+        </li>
+        <li>
+          <h2>Program</h2>
+        </li>
+        <li>
+          <h2>Pro Login</h2>
+        </li>
+      </ul>
+      <p>Conference</p>
+      <ul>
+        <li>
+          <h3>Program</h3>
+        </li>
+        <li>
+          <h3>ADE Pro</h3>
+        </li>
+        <li>
+          <h3>ADE Lab</h3>
+        </li>
+        <li>
+          <h3>Networking</h3>
+        </li>
+        <li>
+          <h3>Tickets</h3>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <h3>ADE x BMIM</h3>
+        </li>
+        <li>
+          <h3>ADE Green</h3>
+        </li>
+        <li>
+          <h3>ADE Beats</h3>
+        </li>
+        <li>
+          <h3>ADE Startups</h3>
+        </li>
+      </ul>
+      <p>Festival</p>
+      <ul>
+        <li>
+          <h3>Program</h3>
+        </li>
+        <li>
+          <h3>Artists</h3>
+        </li>
+        <li>
+          <h3>Festival</h3>
+        </li>
+        <li>
+          <h3>Arts & Culture</h3>
+        </li>
+        <li>
+          <h3>Friends</h3>
+        </li>
+      </ul>
+      <h3>Festival Fund</h3>
+      <p>Practical</p>
+      <ul>
+        <li>
+          <h3>Info & Ticket Desks</h3>
+        </li>
+        <li>
+          <h3>Where to stay</h3>
+        </li>
+        <li>
+          <h3>Plan your travels</h3>
+        </li>
+        <li>
+          <h3>Accessibility</h3>
+        </li>
+        <li>
+          <h3>Celebrate Safe</h3>
+        </li>
+      </ul>
+      <p>More</p>
+      <ul>
+        <li>
+          <h3>News & Updates</h3>
+        </li>
+        <li>
+          <h3>About ADE</h3>
+        </li>
+        <li>
+          <h3>FAQ & Contact</h3>
+        </li>
+        <li>
+          <h3>Partners</h3>
+        </li>
+        <li>
+          <h3>Press</h3>
+        </li>
+        <li>
+          <h3>Careers</h3>
+        </li>
+      </ul>
+    </div>
+    <main>
+      <div class="mainstyle">
+        <h1>Celebrate Safe</h1>
+        <section>
+          <h3>
+            ADE is a proud partner of the Celebrate Safe campaign. We dance
+            together, so please be mindful of yourself and each other. Check our
+            tips to Celebrate Safe during ADE:
+          </h3>
+          <div class="imgcontainer">
+            <img
+              src="https://assets.amsterdam-dance-event.nl/images/images/link-tiles/_590x370_crop_center-center_none/ADE23_KeyVisual_A0_72DPI.png"
+              data-lowsrc="https://assets.amsterdam-dance-event.nl/images/images/link-tiles/_94x61_crop_center-center_35_none/ADE23_KeyVisual_A0_72DPI.png"
+              alt=""
+              style="max-width: 100%"
+            >
+            <div class="tekstoverlay">
+              <h4>♥ Love you Body</h4>
+              <p>
+                Take time to recover ♥ You are the most important ingredient to
+                make ADE fantastic. Love your body! Check out our tips to make
+                it an unforgettable time.
+              </p>
+            </div>
+          </div>
+          <div class="imgcontainer">
+            <img
+              src="https://assets.amsterdam-dance-event.nl/images/images/link-tiles/_590x370_crop_center-center_none/ADE_Blur_2023_A.jpg"
+              data-lowsrc="https://assets.amsterdam-dance-event.nl/images/images/link-tiles/_94x61_crop_center-center_35_none/ADE_Blur_2023_A.jpg"
+              alt=""
+              style="max-width: 100%"
+            >
+            <div class="tekstoverlay">
+              <h4>♥ Know your limits and respect those of others</h4>
+              <p>
+                Not only your body is important, respect that of others too. Do
+                you feel like someone is being harassed or needs help? Then ask
+                if the person is okay.
+              </p>
+            </div>
+          </div>
+        </section>
+        <section>
+          <h2 class="visually_hidden">Explore more</h2>
+          <ul class="gridafbeeldingen">
+            <li>
+              <div class="imgcontainer">
+                <img
+                  src="https://assets.amsterdam-dance-event.nl/images/images/_300x376_crop_center-center_none/Kapaphotography_ADE_Noart-08.jpg"
+                  data-lowsrc="https://assets.amsterdam-dance-event.nl/images/images/_65x82_crop_center-center_35_none/Kapaphotography_ADE_Noart-08.jpg"
+                  alt=""
+                  style="max-width: 100%"
+                >
+                <div class="tekstoverlay2">
+                  <p>♥ Respect each other’s beliefs and differences</p>
+                  <svg
+                    width="15px"
+                    height="15px"
+                    viewBox="0 0 15 15"
+                    version="1.1"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g
+                      stroke="none"
+                      stroke-width="1"
+                      fill="none"
+                      fill-rule="evenodd"
+                      stroke-linecap="square"
+                    >
+                      <g
+                        transform="translate(-228.000000, -5740.000000)"
+                        stroke="#FFFFFF"
+                      >
+                        <g transform="translate(230.000000, 5741.000000)">
+                          <g>
+                            <g stroke-width="2">
+                              <path d="M11.2941176,0.705882353 L0,12"></path>
+                              <polyline
+                                points="0.705882353 0 12 0 12 11.2941176"
+                              ></polyline>
+                            </g>
+                          </g>
+                        </g>
+                      </g>
+                    </g>
+                  </svg>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="imgcontainer">
+                <img
+                  src="https://assets.amsterdam-dance-event.nl/images/images/link-tiles/_300x376_crop_center-center_none/RADION.jpeg"
+                  data-lowsrc="https://assets.amsterdam-dance-event.nl/images/images/link-tiles/_65x82_crop_center-center_35_none/RADION.jpeg"
+                  alt=""
+                  style="max-width: 100%"
+                >
+                <div class="tekstoverlay2">
+                  <p>♥ I love my ears</p>
+                  <svg
+                    width="15px"
+                    height="15px"
+                    viewBox="0 0 15 15"
+                    version="1.1"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g
+                      stroke="none"
+                      stroke-width="1"
+                      fill="none"
+                      fill-rule="evenodd"
+                      stroke-linecap="square"
+                    >
+                      <g
+                        transform="translate(-228.000000, -5740.000000)"
+                        stroke="#FFFFFF"
+                      >
+                        <g transform="translate(230.000000, 5741.000000)">
+                          <g>
+                            <g stroke-width="2">
+                              <path d="M11.2941176,0.705882353 L0,12"></path>
+                              <polyline
+                                points="0.705882353 0 12 0 12 11.2941176"
+                              ></polyline>
+                            </g>
+                          </g>
+                        </g>
+                      </g>
+                    </g>
+                  </svg>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="imgcontainer">
+                <img
+                  src="https://assets.amsterdam-dance-event.nl/images/images/link-tiles/_300x376_crop_center-center_none/RU30181.jpg"
+                  data-lowsrc="https://assets.amsterdam-dance-event.nl/images/images/link-tiles/_65x82_crop_center-center_35_none/RU30181.jpg"
+                  alt=""
+                  style="max-width: 100%"
+                >
+                <div class="tekstoverlay2">
+                  <p>♥ Using alcohol or other drugs is never without risks</p>
+                  <svg
+                    width="15px"
+                    height="15px"
+                    viewBox="0 0 15 15"
+                    version="1.1"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g
+                      stroke="none"
+                      stroke-width="1"
+                      fill="none"
+                      fill-rule="evenodd"
+                      stroke-linecap="square"
+                    >
+                      <g
+                        transform="translate(-228.000000, -5740.000000)"
+                        stroke="#FFFFFF"
+                      >
+                        <g transform="translate(230.000000, 5741.000000)">
+                          <g>
+                            <g stroke-width="2">
+                              <path d="M11.2941176,0.705882353 L0,12"></path>
+                              <polyline
+                                points="0.705882353 0 12 0 12 11.2941176"
+                              ></polyline>
+                            </g>
+                          </g>
+                        </g>
+                      </g>
+                    </g>
+                  </svg>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="imgcontainer">
+                <img
+                  src="https://assets.amsterdam-dance-event.nl/images/images/link-tiles/_300x376_crop_center-center_none/20121018_AllGonePeteTong_WillekeMachiels-18.jpg"
+                  data-lowsrc="https://assets.amsterdam-dance-event.nl/images/images/link-tiles/_65x82_crop_center-center_35_none/20121018_AllGonePeteTong_WillekeMachiels-18.jpg"
+                  alt=""
+                  style="max-width: 100%"
+                >
+                <div class="tekstoverlay2">
+                  <p>♥ Take care of each other</p>
+                  <svg
+                    width="15px"
+                    height="15px"
+                    viewBox="0 0 15 15"
+                    version="1.1"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g
+                      stroke="none"
+                      stroke-width="1"
+                      fill="none"
+                      fill-rule="evenodd"
+                      stroke-linecap="square"
+                    >
+                      <g
+                        transform="translate(-228.000000, -5740.000000)"
+                        stroke="#FFFFFF"
+                      >
+                        <g transform="translate(230.000000, 5741.000000)">
+                          <g>
+                            <g stroke-width="2">
+                              <path d="M11.2941176,0.705882353 L0,12"></path>
+                              <polyline
+                                points="0.705882353 0 12 0 12 11.2941176"
+                              ></polyline>
+                            </g>
+                          </g>
+                        </g>
+                      </g>
+                    </g>
+                  </svg>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </section>
+        <img
+          src="https://assets.amsterdam-dance-event.nl/images/blocks/_1200x800_crop_center-center_none/2577604/4_Jasper-ten-Tusscher_ADE_CUBE-INTERCELL_1022.jpg"
+          data-lowsrc="https://assets.amsterdam-dance-event.nl/images/blocks/_150x100_crop_center-center_35_none/2577604/4_Jasper-ten-Tusscher_ADE_CUBE-INTERCELL_1022.jpg"
+          alt=""
+          style="max-width: 100%"
+        >
+        <section>
+          <h3>ADE is a proud partner of the Celebrate Safe campaign.</h3>
+
+          <p>
+            We dance together, so please be mindful of yourself and each other.
+            We expect an open attitude from our visitors towards other guests,
+            regardless of their origin, gender, sexual orientation, religion and
+            age. If you see or experience any unwanted attention, harassment or
+            behavior of any kind that makes you uncomfortable, please speak out
+            and notify staff.
+          </p>
+          <p>
+            Please keep in mind: we love being your annual host, therefore, we
+            would like to ask you to enjoy responsibly.
+          </p>
+          <p>ADE is proud partner of the</p>
+          <p>Check out</p>
+        </section>
+        <section>
+          <h3>Celebrate Safe</h3>
+          <ul>
+            <li>
+              <p>♥ Respect each other’s beliefs and differences</p>
+            </li>
+            <li>
+              <p>♥ I love my ears</p>
+            </li>
+            <li>
+              <p>♥ Using alcohol or other drugs is never without risks</p>
+            </li>
+            <li>
+              <p>♥ Know your limits and respect those of others</p>
+            </li>
+            <li>
+              <p>♥ Enjoy safe sex without regrets</p>
+            </li>
+            <li>
+              <p>♥ Love your body</p>
+            </li>
+            <li>
+              <p>♥ Get home safe</p>
+            </li>
+            <li>
+              <p>♥ Take care of each other</p>
+            </li>
+            <li>
+              <p>♥ The crew is there to keep you safe</p>
+            </li>
+          </ul>
+          <a href="#">Celebrate Safe Homepage</a>
+        </section>
+        <section>
+          <h3>Touristdoc: Medical Care for Visitors</h3>
+
+          <p>
+            If you need medical help during your stay in Amsterdam, you can
+            consult the practioners at <strong> Touristdoc</strong> in the City
+            Center. The clinic is open daily throughout the festival from 8.00
+            to 20.00 for anyone who does not have a doctor in Amsterdam.
+          </p>
+
+          <ul>
+            <li>
+              <p>
+                • If you have a valid European Health Insurance Card (EHIC)
+                there will not be any costs associated with your visit.
+              </p>
+            </li>
+            <li>
+              <p>
+                • It is not necessary to make an appointment, you may walk in
+                and will be seen in order of urgency.
+              </p>
+            </li>
+          </ul>
+        </section>
+
+        <section>
+          <ul>
+            <li>
+              <h3>
+                <strong>Adress:</strong>
+              </h3>
+            </li>
+            <li>
+              <p>Touristdoc</p>
+            </li>
+
+            <li>
+              <p>Sint Antoniesbreestraat 88</p>
+            </li>
+            <li>
+              <p>1011 HB Amsterdam</p>
+            </li>
+          </ul>
+          <a href="#">Open on Google Maps</a>
+        </section>
+
+        <section>
+          <h3>Drug checking</h3>
+          <p>
+            You can check your drugs anonymously at the drug checking services
+            in the Netherlands. By checking your drugs you know what
+            substance(s) your drugs contain and also how much of them. In
+            Amsterdam you can have your drugs analysed at the
+            <strong>Jellinek</strong> and the <strong>GGD</strong> without an
+            appointment. Read more about the rules and how it works.
+          </p>
+        </section>
+      </div>
+    </main>
+    <footer>
+      <h3>Follow Us</h3>
+      <p>Subscribe to our newsletter and receive the latest updates</p>
+      <div>
+        <svg
+          width="15px"
+          height="15px"
+          viewBox="0 0 15 15"
+          version="1.1"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g
+            stroke="none"
+            stroke-width="1"
+            fill="none"
+            fill-rule="evenodd"
+            stroke-linecap="square"
+          >
+            <g
+              transform="translate(-228.000000, -5740.000000)"
+              stroke="#FFFFFF"
+            >
+              <g transform="translate(230.000000, 5741.000000)">
+                <g stroke-width="2">
+                  <path d="M11.2941176,0.705882353 L0,12"></path>
+                  <polyline
+                    points="0.705882353 0 12 0 12 11.2941176"
+                  ></polyline>
+                </g>
+              </g>
+            </g>
+          </g>
+        </svg>
+
+        <p>Subscribe now</p>
+      </div>
+      <ul>
+        <li>
+          <a href="#">Fb</a>
+        </li>
+        <li>
+          <a href="#">Tw</a>
+        </li>
+        <li>
+          <a href="#">Ig</a>
+        </li>
+        <li>
+          <a href="#">Li</a>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <p>Disclaimer</p>
+        </li>
+        <li>
+          <p>Terms & conditions</p>
+        </li>
+        <li>
+          <p>Privacy</p>
+        </li>
+      </ul>
+
+      <p>ADE is organised by the Amsterdam Dance Event Foundation.</p>
+      <p>Founding partner: <a href="#">BumaStremra</a></p>
+      <p>Geen 18, geen alcohol</p>
+      <p>Protected by: <a href="#">de Merkplaats</a></p>
+    </footer>
+    <script defer src="scripts/script.js"></script>
+  </body>
+</html>
