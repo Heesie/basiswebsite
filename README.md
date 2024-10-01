@@ -182,6 +182,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
+  Moet mijn tweede pagina nog maken, maar ben zo goed als klaar met mijn eerste. Heb een paar kleine vraagjes: Kunnen we samen kijken of ik genoeg surface onderdelen al heb?, zijn er nog een aantal die ik hier aan kan toevoegen?, samen nog kijken naar een andere tweede pagina vanwege tijdsnood. Moet je een nieuwe css bestand en javascript bestand aanmaken voor de tweede pagina?
+
 
   ### Agenda voor meeting
   samen met je groepje opstellen
@@ -196,10 +198,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - Laat genoeg zien op eerste pagina, dus mijn tweede hoeft niet zo ontzettend spectaculair te zijn.
+  - Ik heb genoeg surface plane onderdelen toegevoegd. kan misschien nog kijken naar een kleine micro animatie, als ik daar zin in heb.
+  - Nieuwe tweede pagina gekozen, wat iets sneller in elkaar te zetten is. 
+  - een nieuw css bestand voor de tweede pagina mag niet, een javascript bestand mag, maar hoeft niet.
 
 </details>
 
@@ -254,6 +256,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 6. Voor mijn grids heb ik gebruik gemaakt van css grid generator: https://cssgrid-generator.netlify.app/
 
 7. Voor de esc shortcut heb ik om hulp gevraagd en uitleg aan Chatgpt: https://chatgpt.com/share/66fbbca8-bb5c-8007-8bf1-38c787783013
+
+8. voor inspiratie voor mijn sidescroll heb ik om hulp gevraagd aan chatgpt: https://chatgpt.com/share/66fbc957-6f7c-8007-91b6-80aaa6d78675
 
 
 

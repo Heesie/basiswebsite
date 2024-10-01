@@ -25,6 +25,9 @@ hamMenu.addEventListener("click", () => {
   hamburger.classList.toggle("active"); // Toegevoegd om het kruisje te laten zien
 });
 
+
+//Voor de interactie met mijn navigatie heb ik Chatgpt om hulp gevraagd: https://chatgpt.com/c/66f296f4-af9c-8007-a420-f524648eda98
+
 //function die ervoor zorgt dat de navigatiebalk van kleur verandered en verschijn of tevoorschijn komt
 window.addEventListener("scroll", function () {
   let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
