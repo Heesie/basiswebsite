@@ -172,7 +172,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
 
-  
+- Ik heb dit vrij laat gedaan pas, ik kwam erachter dat ik nog nergens een tabindex had toegevoegd en dit alleen dus op de <a> van toepassing was. 
+- Ik had bij sommige <img> nog geen alt tekst geplaatst. Dit ben ik vervolgens bij elke afbeeling gaan doen, vervolgens toen ik verder door de checklist heen ging zag ik dat dit niet hoeft bij afbeeldingen die geen toegevoegde informatie gaven. Hierna ben ik dit weer gaan veranderen.
+- Toen ik ging checken of mijn h1, h2, h3, etc. op de juiste volgorde stonden zag ik dat dit het geval was. Alleen als er het bij een section weer opnieiuw mag, dus zodra er een section is er weer een nieuwe h2 mag komen nadat erdaarvoor al een h3 was geweet.
+- Ik las iets over een table tag, dit is iets wat ik nog nooit eerder heb gezien en weer iets nieuws over heb geleerd. Ik heb bijvoorbeeld gebruik gemaakt van grids, maar kennelijk had dit ook gekund met de table tag.
+- Bij animation is het van belang om een pauze knop te hebben voor achtergrond video's, ik heb dit niet, maar ik heb toegepast dat als een gebruiker reduced motion aan heeft staan de video niet afspeeld. Als ik meer tijd had gehad had ik hier nog naar gekeken en dit toegepast op de hele website.
+- 
+
 
 </details>
 
@@ -221,7 +227,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/uitkomstopdracht1.png" width="375px" alt="uitkomst opdracht pagina 1">
+    <img src="readme-images/uitkomstopdracht2.png" width="375px" alt="uitkomst opdracht pagina 2">
+
+
 
 
   ### Dit ging goed/Heb ik geleerd: 
