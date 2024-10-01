@@ -172,6 +172,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
 
+  
+
 </details>
 
 
@@ -262,6 +264,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 7. Voor de esc shortcut heb ik om hulp gevraagd en uitleg aan Chatgpt: https://chatgpt.com/share/66fbbca8-bb5c-8007-8bf1-38c787783013
 
 8. voor inspiratie voor mijn sidescroll heb ik om hulp gevraagd aan chatgpt: https://chatgpt.com/share/66fbc957-6f7c-8007-91b6-80aaa6d78675
+
+9. Ik heb inspiratie opgedaan uit deze codepen voor de custom properties voor mijn website https://codepen.io/Dave-deo/pen/QWeWoqy
+
 
 
 
