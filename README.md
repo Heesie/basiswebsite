@@ -49,8 +49,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   #### Screenshot(s) van de tweede pagina (small screen):
   ADE - Celebrate Safe Pagina
   https://www.amsterdam-dance-event.nl/en/partners/celebrate-safe/33503/
-    <img src="readme-images/celebrate-safe-pagina.png" width="375px" alt="De celebrate safe pagina van Amsterdam Dance events website als desktopformaat">
-        <img src="readme-images/afbeeldingwebsite2.png" width="375px" alt="De celebrate safe pagina van Amsterdam Dance events website als telefoonformaat">
+    <img src="readme-images/celebrate-safe-pagina.png" width="250px" alt="De celebrate safe pagina van Amsterdam Dance events website als desktopformaat">
+        <img src="readme-images/afbeeldingwebsite2.png" width="250px" alt="De celebrate safe pagina van Amsterdam Dance events website als telefoonformaat">
 
 
  
