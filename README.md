@@ -236,11 +236,15 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Dit ging goed/Heb ik geleerd: 
   Korte omschrijving met plaatjes
 
+ Ik heb vooral over mijzelf geleerd tijdens dit vak. Ik ben er achter gekomen dat ik coderen erg leuk en interresant vind. Ik weet wel dat mijn voorkeur meer ligt bij front-end dan back-end, aangezien ik design en de opmaak (html en vooral css) mij veel meer aanspreekt. 
+
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
 
 
   ### Dit was lastig/Is niet gelukt:
   Korte omschrijving met plaatjes
+
+  Ik vond het lastig om de stof uit de lessen toe te passen, vaak was ik nog niet zo heel ver met mijn eigen site dus heb ik veel eigen onderzoek gedaan. Dit heeft wel erg geholpen in mijn proces, door een combinatie van eigen onderzoek en soms de codepen oefeningen als inspiratie te gebruiken.
 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
 </details>
