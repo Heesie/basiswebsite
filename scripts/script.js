@@ -2,7 +2,6 @@
 console.log("hi");
 
 // script.js
-let lastScrollTop = 0; // Variabele om de vorige scrollpositie op te slaan
 const navbar = document.getElementById("navbar");
 
 // Controleer of de gebruiker de voorkeur heeft ingesteld om beweging te verminderen
@@ -13,32 +12,33 @@ const prefersReducedMotion = window.matchMedia(
 // Selecteer het video-element
 const video = document.querySelector(".homeachtergrondvideo");
 
+//hamburgermenu gemaakt met tutorial: https://www.youtube.com/watch?v=aNDqzlAKmZc&ab_channel=Treehouse
+const hamMenu = document.querySelector(".hamburgermenu");
+const offScreenMenu = document.querySelector(".offscreenmenu");
+const hamburger = document.querySelector(".hamburger");
 
-//hamburgermenu
-const hamMenu = document.querySelector('.hamburgermenu');
-const offScreenMenu = document.querySelector('.offscreenmenu');
-const hamburger = document.querySelector('.hamburger');
+let lastScrollTop = 0; // Variabele om de vorige scrollpositie op te slaan
 
-hamMenu.addEventListener('click', () => { 
-  hamMenu.classList.toggle('active'); 
-  offScreenMenu.classList.toggle('active');
-  hamburger.classList.toggle('active');  // Toegevoegd om het kruisje te laten zien
+hamMenu.addEventListener("click", () => {
+  hamMenu.classList.toggle("active");
+  offScreenMenu.classList.toggle("active");
+  hamburger.classList.toggle("active"); // Toegevoegd om het kruisje te laten zien
 });
 
-
+//function die ervoor zorgt dat de navigatiebalk van kleur verandered en verschijn of tevoorschijn komt
 window.addEventListener("scroll", function () {
   let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
 
   if (scrollTop === 0) {
-    // De gebruiker is helemaal bovenaan de pagina: maak de navigatiebalk weer transparant
+    // Dzodra de gebruiker bovenaan de pagina is word de navigatiebalk transparant
     navbar.style.backgroundColor = "rgba(255, 255, 255, 0)";
-    navbar.style.color = "white"; // Optioneel: tekstkleur aanpassen
+    navbar.style.color = "white"; // zorgt ervor dat de svg ook van kleur veranderen naar wit
   } else if (scrollTop > lastScrollTop) {
-    // De gebruiker scrolt naar beneden: verberg de navigatiebalk
+    // zodra de gebruiker naar beneden scrollt verdwijnd de navigatiebalk
     navbar.style.top = "-80px";
     navbar.style.backgroundColor = "rgba(255, 255, 255, 0)"; // Transparant houden tijdens het verbergen
   } else {
-    // De gebruiker scrolt omhoog: toon de navigatiebalk en maak deze wit
+    // Zodra de gebruiker omhoog scrollt word de navigatiebalk weer wit
     navbar.style.top = "0";
     navbar.style.backgroundColor = "rgba(255, 255, 255, 1)"; // Wit maken bij omhoog scrollen
     navbar.style.color = "black"; // Optioneel: tekstkleur aanpassen
@@ -51,7 +51,7 @@ function scrollToBottom() {
   window.scrollTo(0, document.body.scrollHeight);
 }
 
-// Event listener voor het toetsenbord
+// Event listener voor het toetsenbord: https://chatgpt.com/share/66fbbca8-bb5c-8007-8bf1-38c787783013
 document.addEventListener("keydown", function (event) {
   if (event.key === "Escape") {
     scrollToBottom();

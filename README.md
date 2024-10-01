@@ -67,7 +67,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 - als je op google iets opzoekt word alles duidelijk opgenoemd. je hoort alle opties die er zijn om verder op te klikken.
 - bij de screenreader kan je op het scherm ook zien dat wat er verteld word er een blauw vierkantje omheen komt wat op dat moment verteld word.
 -   <img src="readme-images/googlescreenshot.png" width="375px"
-- 
 
 
 </details>
@@ -83,10 +82,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <img src="readme-images/home-pagina-breakdown.png" width="375px" alt="breakdown van de hele pagina">
 
   ### dynamisch deel (bijv menu): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
+  <img src="readme-images/dynamischbreakdown.png" width="375px" alt="breakdown van een dynamisch deel">
 
-  ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
 
 </details>
 
@@ -135,7 +132,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 2<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  hier dit ging goed & dit was lastig
 
   Begin een klein beetje vast te lopen met kleine dingetjes, zoals mijn h1 op dezelfde achtergrond als video. of sidescroll toevoegen en opmaak van de navigatie hetzelfde krijgen. 
 
@@ -244,8 +241,20 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Nb. ChatGpT en andere AI horen er ook bij.
   Nb. Vermeld de bronnen ook in je code.
 
-  1. bron 1
-  2. bron 2
-  3. ...
+1. Ik heb chatgpt om error uit mijn svg's en iframe te halen: https://chatgpt.com/c/66ed87ac-4694-8007-b841-7f1871fb1a02
+
+2. Voor de interactie met mijn navigatie heb ik Chatgpt om hulp gevraagd: https://chatgpt.com/c/66f296f4-af9c-8007-a420-f524648eda98
+
+3. hamburger menu tutorial: https://www.youtube.com/watch?v=aNDqzlAKmZc&ab_channel=Treehouse
+
+4. Voor de animatie van mijn hamburger menu van hamburger naar kruisje heb ik om hulp gevraagd aan chatgpt: https://chatgpt.com/share/66fbbb8b-c9a4-8007-a33d-d58bcbed0552
+
+5. Voor het namaken van het vergrootglas in mijn navigatie heb ik dit gevraagd aan Chatgpt: https://chatgpt.com/c/66f413fe-a870-8007-b5ad-aa0efb4377c3
+
+6. Voor mijn grids heb ik gebruik gemaakt van css grid generator: https://cssgrid-generator.netlify.app/
+
+7. Voor de esc shortcut heb ik om hulp gevraagd en uitleg aan Chatgpt: https://chatgpt.com/share/66fbbca8-bb5c-8007-8bf1-38c787783013
+
+
 
 </details>

@@ -11,12 +11,17 @@
 /* CUSTOM PROPERTIES */
 /*********************/
 
+/* ik heb een eigen font toegevoegd met de hulp van thomas*/
+
 @font-face {
-  font-family: "Helvetica1"; /* Geef het font een naam */
-  src: url(../fonts/HelveticaNeueLTStd-Lt.otf); /* Moderne browsers */
-  font-weight: normal; /* Je kunt ook verschillende gewichten en stijlen instellen */
+  font-family: "Helvetica1";
+  src: url(../fonts/HelveticaNeueLTStd-Lt.otf);
+  font-weight: normal; 
   font-style: normal;
 }
+
+/*Ik heb inspiratie opgedaan uit deze codepen van david https://codepen.io/Dave-deo/pen/QWeWoqy*/
+
 
 :root {
   --background-color: #d9d9d9;
@@ -32,11 +37,11 @@ body:has(input[value="dark"]:checked) {
   --secondary-color: #ffffff;
 }
 
-body:has(input[value="summer"]:checked) {
-  --background-color: #fffae5; /* Light sunny yellow */
-  --text-color: #005f73; /* Dark teal */
-  --primary-color: #ffbf69; /* Bright orange */
-  --secondary-color: #ee9b00; /* Warm earthy tone */
+body:has(input[value="autumn"]:checked) {
+  --background-color: #fffae5;
+  --text-color: #005f73;
+  --primary-color: #ffbf69;
+  --secondary-color: #ee9b00; 
 }
 
 body {
@@ -132,6 +137,26 @@ header ul li svg {
   height: 34px;
 }
 
+  /* Voor deze microanimatie heb ik inspiratie opgedaan uit de codepenoefeningen en voorbeelden */
+/* Animatie gaat van normaal, naar iets keiner, dan weer groter dir herhaald 1 keer en dan weer op normale groote van het hartje */
+@keyframes hartjeanimatie {
+  0% { scale:1; }
+  5% { scale:.7; }
+  10% { scale:1.5; }
+  15% { scale:.7; }
+  20% { scale:1.5; }
+  25% { scale:.7; }
+  30% { scale:1; }
+  100% { scale:1; }
+}
+
+header ul li:nth-of-type(4):hover {
+  animation-name:hartjeanimatie;
+  animation-duration:3.5s;   
+  animation-iteration-count:infinite;   /* Animatie word telkens weer opnieuw afgespeeld als gebruiker eroverheen gaat */
+  will-change:transform;
+}
+
 header input {
   width: 5em;
 }
@@ -143,6 +168,8 @@ header input {
   position: relative;
   transition: 0.3s ease;
 }
+
+/*Voor hulp bij hamburger animatie https://chatgpt.com/share/66fbbb8b-c9a4-8007-a33d-d58bcbed0552*/
 
 .hamburger::before,
 .hamburger::after {
@@ -175,6 +202,9 @@ header input {
   transform: rotate(-45deg);
   top: 0;
 }
+
+/* 3. hamburger menu tutorial: https://www.youtube.com/watch?v=aNDqzlAKmZc&ab_channel=Treehouse*/
+
 
 .hamburgermenu {
   margin-left: auto;
@@ -344,6 +374,8 @@ h3 {
   margin-top: 2em;
 }
 
+/*Voor mijn grids heb ik gebruik gemaakt van css grid generator: https://cssgrid-generator.netlify.app/*/
+
 .gridafbeeldingen {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -372,7 +404,7 @@ h3 {
 
 .tekst-sidescroll {
   max-width: 295px;
-  text-wrap: wrap;
+  text-wrap: wrap; /*zorgt ervoor dat de text zelfde witdh krijgt als de max width die erop staat*/
   padding: 5px;
 }
 
@@ -432,3 +464,5 @@ h4 {
     transition: none;
   }
 }
+
+
